@@ -3,8 +3,9 @@
 
 **Client Organization:** `[Client Business Name]`  
 **M365 Tenant ID:** `[Tenant GUID / Domain]`  
+**Practice:** Morrison Cyber Defense LLC | [`https://morrisoncyber.org`](https://morrisoncyber.org)  
 **Sprint Lead:** Principal Cybersecurity Architect (Senior Partner)  
-**Execution Analyst:** Keenan Morrison (Associate Cybersecurity Analyst)  
+**Lead Systems Auditor & Implementation:** Keenan Morrison (CompTIA Security+, Network+, A+)  
 **Target Completion:** `[Target Date - 10 Business Days]`  
 
 ---

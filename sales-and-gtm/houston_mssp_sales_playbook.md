@@ -2,7 +2,8 @@
 ## Converting 5,893 Houston SMBs into High-Margin Managed Cybersecurity Retainers
 
 **Practice:** Morrison Cyber Defense LLC  
-**Principals:** Principal Cybersecurity Architect (Senior Partner) & Keenan Morrison (Associate Analyst)  
+**Web Presence:** [`https://morrisoncyber.org`](https://morrisoncyber.org) | **Central Operations:** `security@morrisoncyber.org`  
+**Principals:** Principal Cybersecurity Architect (Senior Partner) & Keenan Morrison (Lead Technical Systems Auditor)  
 **Territory:** Greater Houston, Harris County, and Fort Bend County, Texas  
 **Lead Repository:** [`market-intelligence/leads/`](file:///home/keenan/Projects/MorrisonCyberDefense/market-intelligence/leads/)
 
@@ -51,23 +52,36 @@ pie title Houston MSSP Qualified Lead Breakdown (5,893 Total)
 > 
 > *Most commercial mechanical and electrical contractors we work with in Harris County are seeing their cyber insurance rates double unless they have 24/7 endpoint monitoring and multi-factor authentication locked down.*  
 > 
-> *We offer a complimentary 15-minute Cyber Insurance Readiness Review to make sure your coverage won't get denied in an audit. Do you have 5 minutes this Thursday morning?"*
+> *We offer a complimentary 15-minute Cyber Insurance Readiness Review to make sure your coverage won't get denied in an audit. Do you have 5 minutes this Thursday morning?*  
+> 
+> *Best regards,*  
+> **Keenan Morrison** | Lead Technical Systems Auditor  
+> Morrison Cyber Defense LLC (Houston, TX)  
+> Email: `security@morrisoncyber.org` | Web: [`https://morrisoncyber.org`](https://morrisoncyber.org)
 
 ### 3.2 The Medical Clinic & Healthcare Pitch (882 Leads)
 > *"Hi [Practice Administrator / Dr. Name],*  
 > 
 > *With HHS stepping up random HIPAA audits across Texas outpatient clinics, most practice managers we speak with have IT support, but zero dedicated cybersecurity monitoring.*  
 > 
-> *If an employee clicks a phishing email, traditional IT doesn't stop ransomware before patient charts get encrypted. We deploy 24/7 managed threat detection and handle your annual HIPAA Technical Safeguards documentation so you pass every state audit.*  
+> *If an employee clicks a phishing email, traditional IT doesn't stop ransomware before patient charts get encrypted. We deliver managed cloud defense backed by 24/7 human SOC isolation and handle your annual HIPAA Technical Safeguards documentation so you pass every state audit.*  
 > 
-> *Mind if I send over our 1-page HIPAA Security Checklist?"*
+> *Mind if I send over our 1-page HIPAA Security Checklist?*  
+> 
+> *Best regards,*  
+> **Keenan Morrison** | Lead Technical Systems Auditor  
+> Morrison Cyber Defense LLC | `security@morrisoncyber.org` | [`https://morrisoncyber.org`](https://morrisoncyber.org)"*
 
 ### 3.3 The CPA & Accounting Pitch (259 Leads)
 > *"Hi [Managing Partner Name],*  
 > 
 > *Reaching out because the FTC Safeguards Rule now holds accounting and tax practices legally liable for multi-factor authentication, endpoint monitoring, and documented risk assessments.*  
 > 
-> *We act as the outsourced security officer for Houston CPA firms, getting you 100% compliant without interrupting your tax season workflow. Would you be open to a 10-minute review before your next filing cycle?"*
+> *We act as the outsourced security officer for Houston CPA firms, getting you 100% compliant without interrupting your tax season workflow. Would you be open to a 10-minute review before your next filing cycle?*  
+> 
+> *Best regards,*  
+> **Keenan Morrison** | Lead Technical Systems Auditor  
+> Morrison Cyber Defense LLC | `security@morrisoncyber.org` | [`https://morrisoncyber.org`](https://morrisoncyber.org)"*
 
 ---
 

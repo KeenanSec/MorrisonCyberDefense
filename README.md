@@ -12,6 +12,10 @@
 
 **Morrison Cyber Defense LLC** is a boutique cybersecurity consultancy headquartered in the Greater Houston Metropolitan Area. We specialize in providing enterprise-grade cybersecurity architecture, Microsoft 365 cloud defense, and practical regulatory/insurance readiness for Houston-area mid-market commercial contractors, energy suppliers, healthcare clinics, and professional firms.
 
+* **Domain & Web Presence:** [`https://morrisoncyber.org`](https://morrisoncyber.org)  
+* **Central Client Communications:** `security@morrisoncyber.org`  
+* **Headquarters:** Greater Houston Metropolitan Area, Texas  
+
 ---
 
 ## 👥 Leadership Team & Division of Labor
@@ -21,7 +25,7 @@ The firm operates under a strict, defensible two-tier organizational hierarchy t
 | Principal | Role & Focus | Background & Qualifications |
 | :--- | :--- | :--- |
 | **Senior Partner** | **Principal Cybersecurity Architect & Managing Partner** | 20+ years enterprise architecture, cloud security, Entra ID, ICS/OT operational resilience, executive risk briefings, and final engagement sign-off. |
-| **Keenan Morrison** | **Associate Cybersecurity Analyst & Junior Partner** | CompTIA A+, Network+, Security+ certified; B.S. in Cybersecurity student (Class of 2027); SkillsUSA Cybersecurity Finalist; TryHackMe Top-Ranked Labs. Specializes in asset discovery, baseline checks, configuration audits, and evidence collection under senior supervision. |
+| **Keenan Morrison** | **Lead Technical Systems Auditor & Junior Partner** | CompTIA A+, Network+, Security+ certified; B.S. in Cybersecurity student (Class of 2027); SkillsUSA Cybersecurity Finalist; TryHackMe Top-Ranked Labs. Specializes in asset discovery, baseline checks, configuration audits, and evidence collection under senior supervision. |
 
 ---
 
@@ -51,10 +55,12 @@ MorrisonCyberDefense/
 │       ├── houston_biz/                                # Python Scraper CLI & Exporter Package
 │       ├── run.sh                                      # Automated Pipeline Runner
 │       └── README.md                                   # Scraper Technical Documentation
-└── deliverables-and-templates/
-    ├── rules_of_engagement_and_testing_authorization_template.md # Legal Testing Authorization & CFAA Protection
-    ├── nist_csf_baseline_assessment_template.md        # Package 1 Client Deliverable Template
-    └── m365_hardening_sprint_checklist.md              # Package 2 Flagship M365 Hardening Checklist
+├── deliverables-and-templates/
+│   ├── rules_of_engagement_and_testing_authorization_template.md # Legal Testing Authorization & CFAA Protection
+│   ├── nist_csf_baseline_assessment_template.md        # Package 1 Client Deliverable Template
+│   └── m365_hardening_sprint_checklist.md              # Package 2 Flagship M365 Hardening Checklist
+└── infrastructure/
+    └── domain_and_dns_hardening_guide.md               # morrisoncyber.org DNS, SPF, DKIM, DMARC & M365 Setup
 ```
 
 ---

@@ -304,7 +304,7 @@ When clients see this level of professional alignment, they don't see a studentâ
 
 ### 4.3 Operational Protocols: Centralized Communications & Visibility
 1. **Zero Personal Communications:** Clients must **never** have Keenan's personal university email or personal mobile phone number. All client correspondence must route through:
-   * Shared Email: `security@morrisoncyber.com` (both Father and Keenan have full access).
+   * Shared Email: `security@morrisoncyber.org` (both Father and Keenan have full access).
    * Virtual Phone: OpenPhone or Microsoft Teams Voice with automated business-hours routing (`8:00 AM â€“ 5:00 PM CT`).
 2. **Asynchronous Evidence Collection:** Keenan executes PowerShell auditing scripts and CIPP assessments asynchronously. The client does not need to be on a Zoom call while scripts run. All deliverables are staged in an internal Git repository or encrypted SharePoint client portal for Senior Partner review prior to client delivery.
 

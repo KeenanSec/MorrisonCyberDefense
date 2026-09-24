@@ -3,9 +3,10 @@
 
 **Client Organization:** `[Client Company Legal Name]`  
 **Client Primary Contact:** `[Name, Title, Email, Direct Phone]`  
-**Practice:** Morrison Cyber Defense LLC (Houston, TX)  
+**Practice:** Morrison Cyber Defense LLC (Houston, TX) | [`https://morrisoncyber.org`](https://morrisoncyber.org)  
+**Central Operations:** `security@morrisoncyber.org`  
 **Engagement Lead / Principal Architect:** Senior Partner, Morrison Cyber Defense LLC  
-**Associate Technical Analyst:** Keenan Morrison  
+**Lead Technical Systems Auditor:** Keenan Morrison (CompTIA Security+, Network+, A+)  
 **Effective Dates:** `[Start Date]` through `[End Date]`  
 
 ---

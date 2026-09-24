@@ -146,7 +146,7 @@ flowchart TD
 #### Academic Capacity Protection & Communication Firewall
 * **The Academic Blackout Calendar:** During university midterm windows (mid-October, early March) and final exam windows (early December, early May), **zero new project implementations are scheduled**. Only automated, multi-tenant retainer monitoring continues.
 * **Surge Windows:** High-intensity project delivery is focused during Winter Break (mid-December to mid-January) and Summer Break (June to August).
-* **Communication Firewall:** Clients must never possess Keenan’s personal cell number or university email. All communications route through `security@morrisoncyber.com` and a shared virtual phone line (OpenPhone / Teams Voice).
+* **Communication Firewall:** Clients must never possess Keenan’s personal cell number or university email. All communications route through `security@morrisoncyber.org` and a shared virtual phone line (OpenPhone / Teams Voice).
 
 ### E. Ownership Structure & Working Capital Architecture
 * **Legal Form:** Texas Member-Managed Limited Liability Company (LLC).
