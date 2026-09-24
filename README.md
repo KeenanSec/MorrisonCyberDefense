@@ -1,6 +1,10 @@
 # Morrison Cyber Defense LLC (Houston, TX)
 ## Father-Son Managed Cybersecurity & Cloud Advisory Practice
 
+<p align="center">
+  <img src="assets/MorrisonCyberDefenseLogo.jpg" alt="Morrison Cyber Defense Logo" width="280" />
+</p>
+
 ```
   __  __                 _                  ____      _               ____        __                      
  |  \/  | ___  _ __ _ __(_)___  ___  _ __  / ___|   _| |__   ___ _ __|  _ \  ___ / _| ___ _ __  ___  ___  
