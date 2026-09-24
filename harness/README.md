@@ -4,7 +4,7 @@ A shared home for company projects, repeatable procedures, and reusable template
 
 ## Start here
 
-From the repository root, using Python 3.10 or later:
+From the repository root, using Python 3.10 or later on Linux:
 
 ```bash
 python3 harness/mcd.py init
@@ -23,7 +23,7 @@ python3 harness/mcd.py status T0001 doing --project example-client
 
 Task IDs are local to their project; omit `--project` for company-wide tasks. Set a task to `todo`, `doing`, `blocked`, or `done`. Use `--note` on `status` to record a blocker or completion reference. Edit project status in `project.json`; suggested values are planning, active, blocked, complete, and archived.
 
-`--workspace /path/to/workspace` before the command selects another location. Keep alternative workspaces outside version control and apply your own access controls. The CLI is a single-writer local tool: coordinate edits, and do not run simultaneous writes against a shared folder. It does not synchronize across computers or provide authentication, encryption, notifications, or enforced approvals. Back up working data separately and test recovery.
+`--workspace /path/to/workspace` before the command selects another location. Keep alternative workspaces outside version control and apply your own access controls. The CLI uses a local advisory lock and rejects concurrent commands with a retry message. Coordinate manual spreadsheet/text-editor changes separately; those editors do not honor the CLI lock. Network filesystem locking is not supported. It does not synchronize across computers or provide authentication, encryption, notifications, or enforced approvals. Back up working data separately and test recovery.
 
 ## Procedures
 
@@ -43,7 +43,7 @@ Task IDs are local to their project; omit `--project` for company-wide tasks. Se
 
 `init` creates company tasks, a prospect pipeline, business obligations register, metrics register, and decision log. Edit CSV registers in a spreadsheet or text editor, preserving headers. Use ISO dates (`YYYY-MM-DD`). Spreadsheet cells imported from outside sources should be treated as untrusted text, not formulas.
 
-For pipeline records use unique IDs, verified source references, an owner, a next action, and a due date. Suggested stages: research, qualified, discovery, proposal, won, lost, do-not-contact. Check the do-not-contact field before preparing outreach. Lead lists are source material; copy only selected, verified prospects into the pipeline. There is no automatic CSV import or outreach integration.
+For pipeline records use unique IDs, verified source references, an owner, a next action, and a due date. Suggested stages: research, qualified, discovery, proposal, won, lost, do-not-contact. Check the do-not-contact field before preparing outreach. Lead lists are source material; copy only selected, verified prospects into the pipeline. Outreach is manual; no messages are sent by the CLI.
 
 Internal projects get a project brief, tasks, and decisions. Client projects additionally get scope, approval log, evidence index, findings, changes, assessment report, monthly review, incident record, and closeout template. Use stable IDs such as E001, F001, and C001 and cross-reference them. Blank records and newly generated files do not indicate completed work or authorization.
 
@@ -69,3 +69,7 @@ Run checks from the repository root:
 ```bash
 python3 -m unittest discover -s harness/tests -v
 ```
+
+## Data integrity
+
+Task writes validate exact CSV headers, row widths, unique IDs, dates, owners, and statuses before replacing the file atomically. UTF-8 BOMs and quoted multiline notes are supported. Invalid files are reported without being overwritten; restore or correct them explicitly. Symlinks in workspace paths and working files are rejected. Project creation publishes a complete directory only after its templates are ready. These controls do not replace backups or operating-system access permissions.

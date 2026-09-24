@@ -5,9 +5,7 @@ from pathlib import Path
 import tempfile
 import unittest
 
-spec = importlib.util.spec_from_file_location('mcd', Path(__file__).resolve().parents[1]/'mcd.py')
-mcd = importlib.util.module_from_spec(spec)
-spec.loader.exec_module(mcd)
+from harness import mcd
 
 class WorkspaceTests(unittest.TestCase):
     def setUp(self):
