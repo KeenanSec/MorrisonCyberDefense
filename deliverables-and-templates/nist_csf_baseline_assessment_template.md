@@ -5,8 +5,8 @@
 **Client Organization:** `[Client Business Name]`  
 **Assessment Date:** `[Date]`  
 **Practice:** Morrison Cyber Defense LLC | [`https://morrisoncyber.org`](https://morrisoncyber.org)  
-**Principal Architect (Review & Sign-Off):** Senior Partner, Morrison Cyber Defense LLC  
-**Lead Technical Systems Auditor (Discovery & Evidence):** Keenan Morrison (CompTIA Security+, Network+, A+)  
+**Principal Architect (Review & Sign-Off):** Senior Partner (Co-Founder), Morrison Cyber Defense LLC  
+**Lead Technical Systems Auditor (Discovery & Evidence):** Keenan Morrison (Co-Founder, CompTIA Security+, Network+, A+)  
 **Document Classification:** Confidential — Client Privileged Information  
 
 ---

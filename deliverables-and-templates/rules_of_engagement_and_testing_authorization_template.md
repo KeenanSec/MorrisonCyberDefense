@@ -5,8 +5,8 @@
 **Client Primary Contact:** `[Name, Title, Email, Direct Phone]`  
 **Practice:** Morrison Cyber Defense LLC (Houston, TX) | [`https://morrisoncyber.org`](https://morrisoncyber.org)  
 **Central Operations:** `security@morrisoncyber.org`  
-**Engagement Lead / Principal Architect:** Senior Partner, Morrison Cyber Defense LLC  
-**Lead Technical Systems Auditor:** Keenan Morrison (CompTIA Security+, Network+, A+)  
+**Engagement Lead / Principal Architect:** Senior Partner (Co-Founder), Morrison Cyber Defense LLC  
+**Lead Technical Systems Auditor:** Keenan Morrison (Co-Founder, CompTIA Security+, Network+, A+)  
 **Effective Dates:** `[Start Date]` through `[End Date]`  
 
 ---

@@ -3,7 +3,7 @@
 
 **Practice:** Morrison Cyber Defense LLC  
 **Web Presence:** [`https://morrisoncyber.org`](https://morrisoncyber.org) | **Central Operations:** `security@morrisoncyber.org`  
-**Principals:** Principal Cybersecurity Architect (Senior Partner) & Keenan Morrison (Lead Technical Systems Auditor)  
+**Co-Founders:** Principal Cybersecurity Architect (Senior Partner) & Keenan Morrison (Co-Founder & Lead Technical Systems Auditor)  
 **Territory:** Greater Houston, Harris County, and Fort Bend County, Texas  
 **Lead Repository:** [`market-intelligence/leads/`](file:///home/keenan/Projects/MorrisonCyberDefense/market-intelligence/leads/)
 
@@ -55,7 +55,7 @@ pie title Houston MSSP Qualified Lead Breakdown (5,893 Total)
 > *We offer a complimentary 15-minute Cyber Insurance Readiness Review to make sure your coverage won't get denied in an audit. Do you have 5 minutes this Thursday morning?*  
 > 
 > *Best regards,*  
-> **Keenan Morrison** | Lead Technical Systems Auditor  
+> **Keenan Morrison** | Co-Founder & Lead Technical Systems Auditor  
 > Morrison Cyber Defense LLC (Houston, TX)  
 > Email: `security@morrisoncyber.org` | Web: [`https://morrisoncyber.org`](https://morrisoncyber.org)
 
@@ -69,7 +69,7 @@ pie title Houston MSSP Qualified Lead Breakdown (5,893 Total)
 > *Mind if I send over our 1-page HIPAA Security Checklist?*  
 > 
 > *Best regards,*  
-> **Keenan Morrison** | Lead Technical Systems Auditor  
+> **Keenan Morrison** | Co-Founder & Lead Technical Systems Auditor  
 > Morrison Cyber Defense LLC | `security@morrisoncyber.org` | [`https://morrisoncyber.org`](https://morrisoncyber.org)"*
 
 ### 3.3 The CPA & Accounting Pitch (259 Leads)
@@ -80,7 +80,7 @@ pie title Houston MSSP Qualified Lead Breakdown (5,893 Total)
 > *We act as the outsourced security officer for Houston CPA firms, getting you 100% compliant without interrupting your tax season workflow. Would you be open to a 10-minute review before your next filing cycle?*  
 > 
 > *Best regards,*  
-> **Keenan Morrison** | Lead Technical Systems Auditor  
+> **Keenan Morrison** | Co-Founder & Lead Technical Systems Auditor  
 > Morrison Cyber Defense LLC | `security@morrisoncyber.org` | [`https://morrisoncyber.org`](https://morrisoncyber.org)"*
 
 ---

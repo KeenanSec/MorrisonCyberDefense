@@ -18,14 +18,14 @@
 
 ---
 
-## 👥 Leadership Team & Division of Labor
+## 👥 Leadership Team & Co-Founders
 
-The firm operates under a strict, defensible two-tier organizational hierarchy that guarantees enterprise rigor while delivering high-touch responsiveness:
+The firm was founded by a father-and-son leadership team combining enterprise architectural authority with high-speed certified technical execution:
 
 | Principal | Role & Focus | Background & Qualifications |
 | :--- | :--- | :--- |
-| **Senior Partner** | **Principal Cybersecurity Architect & Managing Partner** | 20+ years enterprise architecture, cloud security, Entra ID, ICS/OT operational resilience, executive risk briefings, and final engagement sign-off. |
-| **Keenan Morrison** | **Lead Technical Systems Auditor & Junior Partner** | CompTIA A+, Network+, Security+ certified; B.S. in Cybersecurity student (Class of 2027); SkillsUSA Cybersecurity Finalist; TryHackMe Top-Ranked Labs. Specializes in asset discovery, baseline checks, configuration audits, and evidence collection under senior supervision. |
+| **Senior Partner** | **Co-Founder & Principal Cybersecurity Architect** | 20+ years enterprise architecture, cloud security, Entra ID, ICS/OT operational resilience, executive risk briefings, and final engagement sign-off. |
+| **Keenan Morrison** | **Co-Founder & Lead Technical Systems Auditor** | CompTIA A+, Network+, Security+ certified; B.S. in Cybersecurity student (Class of 2027); SkillsUSA Cybersecurity Finalist; TryHackMe Top-Ranked Labs. Leads hands-on tenant discovery, automated baseline audits, evidence harvesting, and remediation validation. |
 
 ---
 

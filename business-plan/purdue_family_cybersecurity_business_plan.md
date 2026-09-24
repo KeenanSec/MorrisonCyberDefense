@@ -3,9 +3,9 @@
 **Framework:** Purdue University Agricultural Economics & Family Business Strategic Business Planning Model  
 **Entity Name:** Morrison Cyber Defense LLC  
 **Location:** Greater Houston Metropolitan Area, Texas  
-**Principals:**  
-* **Principal Cybersecurity Architect & Managing Partner:** Senior Partner (Father)  
-* **Lead Technical Systems Auditor & Junior Partner:** Keenan Morrison (CompTIA Security+, Network+, A+)  
+**Principals & Co-Founders:**  
+* **Co-Founder & Principal Cybersecurity Architect:** Senior Partner (Father)  
+* **Co-Founder & Lead Technical Systems Auditor:** Keenan Morrison (CompTIA Security+, Network+, A+)  
 **Document Classification:** Confidential — Strategic Business Plan v1.0  
 
 ---
@@ -52,8 +52,8 @@ To provide enterprise-grade, pragmatic cybersecurity architecture and compliance
 
 ### B. Company Summary
 The firm operates as a boutique, father-son cybersecurity advisory consultancy organized as a Texas Member-Managed LLC. The practice is uniquely anchored by an elite two-tier operational hierarchy:
-* **The Father (Principal Architect & Managing Partner):** Provides 20+ years of architectural authority, governance, cloud/M365 engineering, OT/ICS operational context, sole contracting authority, and executive client leadership.
-* **Keenan Morrison (Lead Technical Systems Auditor & Junior Partner):** Certified professional (CompTIA A+, Network+, Security+, top-ranked TryHackMe competitor, and SkillsUSA cybersecurity finalist pursuing a B.S. in Cybersecurity, class of 2027) who leads hands-on data collection, automated multi-tenant discovery, baseline audits, evidence gathering, and remediation validation under senior architectural parameters.
+* **The Father (Co-Founder & Principal Architect):** Provides 20+ years of architectural authority, governance, cloud/M365 engineering, OT/ICS operational context, sole contracting authority, and executive client leadership.
+* **Keenan Morrison (Co-Founder & Lead Technical Systems Auditor):** Certified professional (CompTIA A+, Network+, Security+, top-ranked TryHackMe competitor, and SkillsUSA cybersecurity finalist pursuing a B.S. in Cybersecurity, class of 2027) who leads hands-on data collection, automated multi-tenant discovery, baseline audits, evidence gathering, and remediation validation under senior architectural parameters.
 
 ### C. Products/Services & The 100% Roll-In Credit
 1. **Diagnostic Posture & M365 Risk Audit ($2,500 – $6,500 value-banded):** 100% diagnostic audit with strict Scope Box limits, NIST CSF 2.0 alignment, threat surface scan, underwriter attestation, and 10-day turnaround.
@@ -131,16 +131,16 @@ While cold outbound (5,893 pre-qualified Houston leads) provides targeted pipeli
 
 ```mermaid
 flowchart TD
-    Dad["Principal Cybersecurity Architect (Father)\n• Managing Partner & Executive Lead\n• Scoping, Pricing & Sole Contracting Authority\n• Architecture Review & Final Sign-Off\n• Executive Client Briefings & vCISO Advisory"]
-    Keenan["Lead Technical Systems Auditor (Keenan Morrison)\n• Junior Partner (CompTIA Security+, Network+, A+)\n• Multi-Tenant CIPP.app & PowerShell Discovery\n• Evidence Harvesting & Telemetry Verification\n• Lab Simulation & Vulnerability Validation"]
+    Dad["Co-Founder & Principal Architect (Father)\n• Managing Partner & Executive Lead\n• Scoping, Pricing & Sole Contracting Authority\n• Architecture Review & Final Sign-Off\n• Executive Client Briefings & vCISO Advisory"]
+    Keenan["Co-Founder & Lead Systems Auditor (Keenan Morrison)\n• Equity Co-Founder (CompTIA Security+, Network+, A+)\n• Multi-Tenant CIPP.app & PowerShell Discovery\n• Evidence Harvesting & Telemetry Verification\n• Lab Simulation & Vulnerability Validation"]
 
     Dad -->|Delegates Structured Diagnostic Runbooks| Keenan
     Keenan -->|Submits Raw Evidence & Audit Findings| Dad
 ```
 
 #### Lines of Authority & Governance
-* **Managing Partner & President:** Senior Partner (Father) holds sole contracting authority, legal engagement sign-off, and client billing administration.
-* **Lead Technical Systems Auditor:** Keenan Morrison executes technical discovery, evidence collection, and remediation tasks within predefined, pre-authorized Standard Operating Procedures (SOPs).
+* **Managing Partner & President:** Senior Partner (Co-Founder) holds sole contracting authority, legal engagement sign-off, and client billing administration.
+* **Lead Technical Systems Auditor & Co-Founder:** Keenan Morrison executes technical discovery, evidence collection, and remediation tasks within predefined, pre-authorized Standard Operating Procedures (SOPs).
 * **Quality Assurance Gate:** No report, finding, risk rating, or remediation recommendation is ever delivered to a client without line-by-line review and digital signature from the Principal Architect.
 
 #### Academic Capacity Protection & Communication Firewall
@@ -149,10 +149,10 @@ flowchart TD
 * **Communication Firewall:** Clients must never possess Keenan’s personal cell number or university email. All communications route through `security@morrisoncyber.org` and a shared virtual phone line (OpenPhone / Teams Voice).
 
 ### E. Ownership Structure & Working Capital Architecture
-* **Legal Form:** Texas Member-Managed Limited Liability Company (LLC).
-* **Equity Distribution:** 
-  * Principal Architect: **70% ownership**
-  * Lead Technical Systems Auditor: **30% ownership** (with a documented 5-year sweat-equity path to 50/50 partnership upon college graduation in 2027 and attainment of CISSP/equivalent).
+* **Legal Form:** Texas Member-Managed Limited Liability Company (LLC) co-founded by Senior Partner and Keenan Morrison.
+* **Equity Distribution & Co-Founder Agreement:** 
+  * Co-Founder & Principal Architect: **70% ownership**
+  * Co-Founder & Lead Systems Auditor: **30% ownership** (with a documented 5-year sweat-equity path to 50/50 equal partnership upon college graduation in 2027 and attainment of CISSP/equivalent).
 * **Working Capital & Payment Terms (Zero Net-30):**
   * **Diagnostic & Sprint Projects:** 50% deposit upon contract execution; 50% balance due upon deliverable presentation (reports released upon confirmed settlement).
   * **Monthly Retainers:** 100% automated credit card or ACH debit processed on the **1st of each calendar month** in advance via Stripe / QuickBooks Payments.
