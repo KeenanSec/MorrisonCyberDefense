@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# SQLite & Data dumps
+*.db
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite3
+*.csv
+*.jsonl
+
+# Environments & OS
+.venv/
+venv/
+ENV/
+.DS_Store
+.idea/
+.vscode/

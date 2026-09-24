@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# IDE & OS
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Large binary SQLite databases (reproducible via market-intelligence/scraper/run.sh)
+*.db
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite3
+
+# Large full-city CSV dumps (>20MB)
+*all_houston_businesses*.csv
+market-intelligence/scraper/*.csv
+market-intelligence/scraper/*.jsonl
+
+# Keep sliced lead files in market-intelligence/leads/
+!market-intelligence/leads/*.csv
