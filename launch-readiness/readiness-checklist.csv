@@ -1,0 +1,19 @@
+id,stage,item,status,suggested_owner,completion_evidence,next_action
+L01,CALL,Approve one customer profile and initial offer,Decision needed,Both founders,Dated approved offer,Review proposed narrow M365 offer
+L02,CALL,Verify real business identity and public claims,Unverified,Principal,Formation/trading-name record reference and approved bio,Confirm exact identity; remove unsupported representations
+L03,CALL,Replace unsupported sales wording,Draft replacement created,Keenan + Principal,Approved sales-kit version,Review new scripts before use
+L04,CALL,Confirm calling rules for proposed campaign,Unverified,Principal,Documented applicability/registration or exemption basis,Resolve Texas/federal requirements for actual numbers and channels
+L05,CALL,Prepare 20 verified business contacts,Missing callable fields in source lists,Keenan,Contact list with source URLs and verification dates,Research official business contact details
+L06,CALL,Test email callback voicemail and scheduling,Unverified,Keenan,Dated test results,Test actual business channels
+L07,CALL,Set suppression and follow-up process,Template created; not operationally verified,Keenan,Opt-out test and owned next actions,Use call list and record opt-outs
+L08,DEAL,Validate price scope and effort,Draft assumptions,Both founders,Rehearsal hours and approved quote economics,Measure delivery effort and approve commercial terms
+L09,DEAL,Prepare reviewed agreement and consistent SOW/RoE,Incomplete in repository,Principal,Reviewed template/version and matching scope,Resolve contract terms and asset-limit contradictions
+L10,DEAL,Confirm payment bookkeeping and tax setup,Unverified,Principal,Invoice/payment test and tax classification reference,Check actual service lines and business payment route
+L11,DEAL,Confirm insurance and contractual coverage,Unverified,Principal,Broker/policy reference and scope review,Verify appropriate policy before promising coverage or starting work
+L12,DEAL,Confirm signer authority and ownership decisions,Unverified,Principal,Authority and founder-agreement references,Confirm documented actual agreements
+L13,DEAL,Prepare truthful credibility packet,Missing completed demonstration,Keenan + Principal,Verified bios and reviewed labeled lab report,Complete rehearsal and verify credentials
+L14,DELIVER,Rehearse assessment end to end,Unverified,Keenan + Principal,Evidence findings report review and time record,Use authorized lab and blank harness report
+L15,DELIVER,Set client-data storage access and backup,Unverified,Both founders,Access check and restore-test record,Choose shared restricted storage and vault
+L16,DELIVER,Reserve capacity and escalation coverage,Unverified,Principal,Calendar allocation and named contacts,Confirm availability and absence plan
+L17,DELIVER,Execute agreement authorization and kickoff,Per-client requirement,Principal,Actual signatures payment milestone and kickoff record,Complete only for a real approved engagement
+L18,LATER,Validate vendors before selling recurring monitoring,Unverified; conditional,Principal,Provider agreement coverage price and escalation test,Do not include unavailable services in the starter offer

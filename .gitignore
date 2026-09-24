@@ -32,3 +32,6 @@ market-intelligence/scraper/*.jsonl
 
 # Keep sliced lead files in market-intelligence/leads/
 !market-intelligence/leads/*.csv
+
+# Private harness working records (templates and procedures remain versioned)
+/harness/local/

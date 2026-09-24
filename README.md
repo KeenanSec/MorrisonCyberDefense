@@ -149,3 +149,11 @@ cd /home/keenan/Projects/MorrisonCyberDefense/market-intelligence/scraper
 4. [ ] **Select Beachhead:** Target **Commercial Contractors** (`2,705` leads) or **Medical Clinics** (`882` leads).
 5. [ ] **Outreach:** Deploy the Cold Email / Referral scripts in the [Sales Playbook](file:///home/keenan/Projects/MorrisonCyberDefense/sales-and-gtm/README.md).
 6. [ ] **Execution:** Use the [Rules of Engagement](file:///home/keenan/Projects/MorrisonCyberDefense/deliverables-and-templates/rules_of_engagement_and_testing_authorization_template.md) and [NIST Baseline Template](file:///home/keenan/Projects/MorrisonCyberDefense/deliverables-and-templates/nist_csf_baseline_assessment_template.md) for initial client engagements.
+
+## Company operating harness
+
+Use the [operating harness](harness/README.md) for project tracking, repeatable company procedures, and reusable engagement templates. Start with `python3 harness/mcd.py init`, then view work with `python3 harness/mcd.py dashboard`.
+
+## Sales launch readiness
+
+Start with the [launch-readiness kit](launch-readiness/README.md) for the repository gap assessment, first-offer draft, calling scripts, proposal outline, and staged checklist. Older sales scripts and outcome claims require review before use.

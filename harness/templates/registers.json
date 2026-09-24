@@ -1,0 +1,72 @@
+{
+  "evidence.csv": [
+    "id",
+    "collected_at",
+    "collector",
+    "asset",
+    "source_and_version",
+    "storage_reference",
+    "limitations"
+  ],
+  "findings.csv": [
+    "id",
+    "title",
+    "asset",
+    "observation",
+    "evidence_ids",
+    "severity",
+    "severity_rationale",
+    "business_impact",
+    "recommendation",
+    "owner",
+    "due",
+    "status",
+    "validation"
+  ],
+  "changes.csv": [
+    "id",
+    "finding_id",
+    "assets",
+    "proposed_change",
+    "owner",
+    "window",
+    "client_authorization",
+    "principal_review",
+    "baseline_evidence",
+    "pilot_plan",
+    "rollback_plan",
+    "rollback_triggers",
+    "recovery_access_verified",
+    "status",
+    "validation_evidence"
+  ],
+  "pipeline.csv": [
+    "id",
+    "organization",
+    "contact_reference",
+    "source",
+    "verified_at",
+    "stage",
+    "owner",
+    "next_action",
+    "due",
+    "do_not_contact",
+    "notes"
+  ],
+  "business-register.csv": [
+    "item",
+    "owner",
+    "status",
+    "due",
+    "evidence_reference",
+    "next_action"
+  ],
+  "metrics.csv": [
+    "period",
+    "metric",
+    "definition",
+    "value",
+    "source",
+    "owner"
+  ]
+}
