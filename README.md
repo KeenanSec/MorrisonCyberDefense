@@ -64,9 +64,25 @@ MorrisonCyberDefense/
 │   ├── 02_cold_outreach_scripts.md                     # High-Conversion Email Scripts & Signatures
 │   ├── 03_packaging_and_roll_in_credit.md              # 3-Tier Retainer Packaging & Closing Script
 │   └── 04_referral_triad_battlecards.md                # Insurance Broker & MSP Co-Marketing Battlecards
+├── corporate-governance/                               # Texas LLC Legal Governance
+│   ├── README.md                                       # Governance Index
+│   └── operating_agreement_and_founder_bylaws.md       # 50/50 Founders Agreement & Succession Plan
+├── policies-and-sops/                                  # Internal Operating Standards & SOPs
+│   ├── README.md                                       # SOPs Master Directory
+│   ├── incident_response_plan.md                       # IRP, Huntress SOC Escalation & Texas Breach Law
+│   ├── vulnerability_and_patch_management_policy.md   # CVSS SLAs, CISA KEV & Staged Patch Rings
+│   ├── access_control_and_zero_trust_sop.md            # YubiKey FIDO2 Mandate, PIM JIT & Break-Glass
+│   ├── business_continuity_and_disaster_recovery_plan.md # 3-2-1-1-0 Backups & 4-Hour RTO/RPO
+│   └── secure_configuration_baselines.md               # CIS M365 v3.0, CISA CPGs & ScubaGear Scripts
 ├── deliverables-and-templates/                         # Client-Facing Execution & Legal Templates
-│   ├── README.md                                       # Template Index & Usage Instructions
+│   ├── README.md                                       # Master Legal Contracts Index
+│   ├── master_services_agreement_template.md           # Master Services Agreement (5 Liability Shields)
+│   ├── statement_of_work_template.md                   # SOW ($2.5k Audit, $3.8k Sprint, 100% Roll-In)
+│   ├── managed_security_service_level_agreement_template.md # Managed Security SLA (Dual-Tier SOC)
 │   ├── rules_of_engagement_and_testing_authorization_template.md # CFAA & Texas Penal Code Authorization
+│   ├── incident_response_scope_limitation_addendum_template.md # Emergency Triage ($250/hr) & DFIR Limits
+│   ├── mutual_non_disclosure_agreement_template.md     # TUTSA Bilateral Non-Disclosure Agreement
+│   ├── data_processing_and_business_associate_agreement_template.md # Texas TDPSA & HIPAA BAA
 │   ├── nist_csf_baseline_assessment_template.md        # Package 1 Client Deliverable Template
 │   └── m365_hardening_sprint_checklist.md              # Package 2 Flagship M365 Hardening Checklist
 ├── infrastructure/                                     # Technical Operations & DNS Security

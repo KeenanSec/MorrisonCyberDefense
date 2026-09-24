@@ -7,10 +7,10 @@ L05,CALL,Prepare 20 verified business contacts,Missing callable fields in source
 L06,CALL,Test email callback voicemail and scheduling,Unverified,Keenan,Dated test results,Test actual business channels
 L07,CALL,Set suppression and follow-up process,Template created; not operationally verified,Keenan,Opt-out test and owned next actions,Use call list and record opt-outs
 L08,DEAL,Validate price scope and effort,Draft assumptions,Both founders,Rehearsal hours and approved quote economics,Measure delivery effort and approve commercial terms
-L09,DEAL,Prepare reviewed agreement and consistent SOW/RoE,Incomplete in repository,Principal,Reviewed template/version and matching scope,Resolve contract terms and asset-limit contradictions
+L09,DEAL,Prepare reviewed agreement and consistent SOW/RoE,Drafted in repository; Ready for legal review,Principal,Reviewed template/version and matching scope,Complete attorney sanity check prior to client execution
 L10,DEAL,Confirm payment bookkeeping and tax setup,Unverified,Principal,Invoice/payment test and tax classification reference,Check actual service lines and business payment route
 L11,DEAL,Confirm insurance and contractual coverage,Unverified,Principal,Broker/policy reference and scope review,Verify appropriate policy before promising coverage or starting work
-L12,DEAL,Confirm signer authority and ownership decisions,Unverified,Principal,Authority and founder-agreement references,Confirm documented actual agreements
+L12,DEAL,Confirm signer authority and ownership decisions,Drafted in corporate-governance,Principal,Authority and founder-agreement references,Sign 50/50 Operating Agreement
 L13,DEAL,Prepare truthful credibility packet,Missing completed demonstration,Keenan + Principal,Verified bios and reviewed labeled lab report,Complete rehearsal and verify credentials
 L14,DELIVER,Rehearse assessment end to end,Unverified,Keenan + Principal,Evidence findings report review and time record,Use authorized lab and blank harness report
 L15,DELIVER,Set client-data storage access and backup,Unverified,Both founders,Access check and restore-test record,Choose shared restricted storage and vault
