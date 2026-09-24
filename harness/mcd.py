@@ -12,8 +12,10 @@ import tempfile
 
 if __package__:
     from .storage import locked, read_csv, safe_path, write_csv
+    from .leads import merge_pipeline, validate as validate_leads
 else:
     from storage import locked, read_csv, safe_path, write_csv
+    from leads import merge_pipeline, validate as validate_leads
 
 BASE = Path(__file__).resolve().parent
 TASK_FIELDS = ['id', 'title', 'owner', 'due', 'status', 'notes']
@@ -81,7 +83,9 @@ def workspace(root, registers):
     for name, fields in tables.items():
         path = safe_path(root/name)
         if path.exists():
-            tasks(path) if name == 'tasks.csv' else read_csv(path, fields)
+            records = tasks(path) if name == 'tasks.csv' else read_csv(path, fields)
+            if name == 'pipeline.csv':
+                validate_leads(records, path)
     decision = safe_path(root/'decisions.md')
     if decision.exists() and not decision.is_file():
         raise ValueError(f'Expected file: {decision}')
@@ -177,6 +181,10 @@ def parser():
     s.add_argument('--project', type=valid_slug)
     s.add_argument('--note', default=None)
     sub.add_parser('dashboard', help='Display open tasks')
+    lead = sub.add_parser('import-leads', help='Append normalized prospect CSV; preserve existing records')
+    lead.add_argument('file', type=Path)
+    lead.add_argument('--owner', type=nonempty)
+    lead.add_argument('--dry-run', action='store_true')
     return p
 
 
@@ -211,6 +219,10 @@ def execute(root, args, registers):
         print(message)
     elif args.command == 'dashboard':
         dashboard(root)
+    elif args.command == 'import-leads':
+        result = merge_pipeline(root/'pipeline.csv', safe_path(args.file), registers['pipeline.csv'],
+                                args.owner, args.dry_run)
+        print(json.dumps(result, sort_keys=True))
 
 
 def main(argv=None):

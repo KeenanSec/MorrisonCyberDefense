@@ -73,3 +73,18 @@ python3 -m unittest discover -s harness/tests -v
 ## Data integrity
 
 Task writes validate exact CSV headers, row widths, unique IDs, dates, owners, and statuses before replacing the file atomically. UTF-8 BOMs and quoted multiline notes are supported. Invalid files are reported without being overwritten; restore or correct them explicitly. Symlinks in workspace paths and working files are rejected. Project creation publishes a complete directory only after its templates are ready. These controls do not replace backups or operating-system access permissions.
+
+## Import prospect candidates
+
+The scraper's offline `pipeline-leads` command produces exactly the pipeline register schema. Preview and import from the repository root:
+
+```bash
+python3 harness/mcd.py import-leads harness/local/contractor-clinic-candidates.csv --dry-run
+python3 harness/mcd.py import-leads harness/local/contractor-clinic-candidates.csv
+```
+
+Optionally add `--owner Keenan` to assign newly imported rows. Existing rows are never updated by import: IDs and organization/location matches are skipped, and an existing organization opt-out suppresses additional locations of that organization. Reimporting the same candidate file is a no-op. Duplicate IDs or malformed headers/rows/dates cause an error before any write. Import and task operations use the same lock and atomic replacement logic.
+
+Pipeline rows require a unique nonempty ID, organization, and one of the documented stages. Use `true`, `false`, or blank for `do_not_contact`; dates in `verified_at` and `due` must be blank or `YYYY-MM-DD`. Candidate imports leave verification dates and contacts unfilled. A registry address in `contact_reference` is a location reference, not a researched phone number or email. Research candidates before outreach.
+
+See the [scraper normalization instructions](../market-intelligence/scraper/README.md#harness-pipeline-export-offline) for filtering and deduplication limits. Keep populated candidate exports under `harness/local/` or another restricted, unversioned workspace.

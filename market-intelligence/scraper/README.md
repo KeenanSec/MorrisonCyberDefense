@@ -118,3 +118,33 @@ All data is stored locally in SQLite with **Write-Ahead Logging (WAL)** and an *
 * **Zero Scraping Blockers:** 100% legitimate public data access via Socrata SODA REST API.
 * **Streaming Ingestion:** Pulls 10,000 records per HTTP batch in ~1.5 seconds.
 * **Memory Efficient:** Exports directly stream SQLite cursors to disk without memory bloat.
+
+## Harness pipeline export (offline)
+
+From `market-intelligence/scraper/`, normalize existing sliced CSVs without fetching data or modifying the research lists:
+
+```bash
+python3 -m houston_biz pipeline-leads \
+  --input ../leads/commercial_contractors.csv ../leads/healthcare_hipaa.csv \
+  --output ../../harness/local/contractor-clinic-candidates.csv
+```
+
+Initialize the harness first so its local directory exists. The output filename must be new: existing files are never overwritten. The command prints counts for rows read, filtered, invalid, duplicated, and exported. It accepts the existing sliced headers, the scraper's standard permit export headers, or equivalent raw permit field names. UTF-8 BOMs and quoted CSV fields are supported; malformed headers/row widths fail without publishing partial output.
+
+Default selection is **Houston, Texas**. Repeat `--city` to explicitly include surrounding municipalities, for example `--city Houston --city Katy`. An explicit city list replaces the default. This is city-name filtering, not geospatial or county-boundary matching.
+
+Use `--vertical contractors`, `--vertical clinics`, or the default `both`. Contractor targeting selects `238*` and `236220`; clinic targeting selects `6211*`, `6212*`, `6213*`, and `6214*`. These are targeting heuristics, not proof of commercial work, regulatory obligations, business size, or service fit. Home-health, laboratory, and other healthcare categories outside those prefixes are excluded. No completeness claim is made about registry coverage.
+
+Normalization trims/collapses whitespace, checks six-digit NAICS and ZIP formats, and deduplicates by case-normalized business name plus address/city/state/five-digit ZIP. Distinct branches and suite addresses remain separate. Stable hashed IDs make repeat imports idempotent. This deliberately does not fuzzy-merge spelling changes or street abbreviations. First occurrence wins for duplicates. Formula-like business-name values are escaped for spreadsheet display.
+
+Output is the harness pipeline schema, with stage `research`, source-file provenance, blank verification/contact-person fields, and no fabricated phone/email data. Output is built in a temporary file and published without replacing an existing destination. Deduplication holds matching candidates in memory; this path is intended for curated CSV exports, not an unbounded stream.
+
+From the repository root:
+
+```bash
+python3 harness/mcd.py import-leads harness/local/contractor-clinic-candidates.csv --dry-run
+python3 harness/mcd.py import-leads harness/local/contractor-clinic-candidates.csv
+python3 -m unittest discover -s harness/tests -v
+```
+
+The tests cover normalizer filtering, stable deduplication, malformed-input handling, export preservation, and a real subprocess round trip through both CLIs. Existing fetch/export commands remain separate. No live network fetch is required to run this test suite.

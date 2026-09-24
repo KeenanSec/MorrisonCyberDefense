@@ -261,13 +261,29 @@ def main() -> None:
     p_mssp = subparsers.add_parser("mssp-leads", help="Generate pre-sliced MSSP B2B lead lists across 7 high-value target verticals")
     p_mssp.add_argument("--output-dir", default="leads", help="Output directory for sliced lead CSVs (default: leads/)")
 
+    p_pipeline = subparsers.add_parser("pipeline-leads", help="Normalize local CSV candidates for harness import (offline)")
+    p_pipeline.add_argument("--input", nargs="+", required=True, type=Path)
+    p_pipeline.add_argument("--output", required=True, type=Path)
+    p_pipeline.add_argument("--vertical", choices=["contractors", "clinics", "both"], default="both")
+    p_pipeline.add_argument("--city", action="append", help="Allowed Texas city; repeat for surrounding cities (default Houston)")
+
     args = parser.parse_args()
 
     if not args.command:
         parser.print_help()
         sys.exit(1)
 
-    if args.command == "count":
+    if args.command == "pipeline-leads":
+        import csv
+        import json
+        from .pipeline import export_pipeline
+        try:
+            stats = export_pipeline(args.input, args.output, args.vertical, args.city or ["Houston"])
+        except (OSError, ValueError, csv.Error) as exc:
+            print(f"Error: {exc}", file=sys.stderr)
+            sys.exit(1)
+        print(json.dumps(stats, sort_keys=True))
+    elif args.command == "count":
         cmd_count(args)
     elif args.command == "fetch":
         cmd_fetch(args)
