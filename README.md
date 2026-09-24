@@ -25,42 +25,52 @@ The firm was founded by a father-and-son leadership team combining enterprise ar
 | Principal | Role & Focus | Background & Qualifications |
 | :--- | :--- | :--- |
 | **Senior Partner** | **Co-Founder & Principal Cybersecurity Architect** | 20+ years enterprise architecture, cloud security, Entra ID, ICS/OT operational resilience, executive risk briefings, and final engagement sign-off. |
-| **Keenan Morrison** | **Co-Founder & Lead Technical Systems Auditor** | CompTIA A+, Network+, Security+ certified; B.S. in Cybersecurity student (Class of 2027); SkillsUSA Cybersecurity Finalist; TryHackMe Top-Ranked Labs. Leads hands-on tenant discovery, automated baseline audits, evidence harvesting, and remediation validation. |
+| **Keenan Morrison** | **Co-Founder & Lead Technical Systems Auditor** | Born October 29, 2007 (18 yrs old, turning 19); B.S. in Cybersecurity student at Western Governors University (WGU); CompTIA Security+, Network+, A+ certified; SkillsUSA Finalist; TryHackMe Top-Ranked. Leads tenant discovery, automated baseline audits, evidence harvesting, and remediation validation. |
 
 ---
 
-## 📁 Repository Directory Structure
+## 📁 Modular Repository Directory Structure
 
-All strategic, operational, sales, and technical assets are organized into standardized functional directories:
+All strategic, operational, sales, and technical assets are organized into bite-sized, categorized modules with standalone tables of contents:
 
 ```
 MorrisonCyberDefense/
 ├── README.md                                           # Master Firm Index & Executive Dashboard
-├── business-plan/
-│   ├── purdue_family_cybersecurity_business_plan.md    # 3-Year Strategic Business Plan (Purdue Framework)
-│   └── peer_founder_audit_and_gap_analysis.md          # Peer Founder Audit & Strategic Gap Analysis ($5M ARR Managing Partner)
-├── sales-and-gtm/
-│   └── houston_mssp_sales_playbook.md                  # Sales Battlecard, Outreach Scripts & Packaging
-├── market-intelligence/
-│   ├── leads/                                          # 5,893 Pre-Sliced High-Consequence Houston Leads
-│   │   ├── commercial_contractors.csv                  # 2,705 Accounts (BEC & Insurance Questionnaire Panic)
-│   │   ├── healthcare_hipaa.csv                        # 882 Accounts (Mandatory HIPAA Technical Safeguards)
-│   │   ├── engineering_cmmc.csv                        # 736 Accounts (CMMC 2.0 & Municipal Contractor Audits)
-│   │   ├── oil_gas_energy.csv                          # 631 Accounts (Supermajor Vendor Security Reviews)
-│   │   ├── logistics_maritime.csv                      # 400 Accounts (Port of Houston Supply Chain Defense)
-│   │   ├── law_firms_legal.csv                         # 280 Accounts (Escrow Wire Fraud & Bar Ethics)
-│   │   └── cpa_accounting.csv                          # 259 Accounts (FTC Safeguards Rule Enforcement)
-│   └── scraper/                                        # Enterprise Houston Business Intelligence Engine
-│       ├── houston_businesses.db                       # 96,334 Active Commercial Businesses (FTS5 SQLite)
-│       ├── houston_biz/                                # Python Scraper CLI & Exporter Package
-│       ├── run.sh                                      # Automated Pipeline Runner
-│       └── README.md                                   # Scraper Technical Documentation
-├── deliverables-and-templates/
-│   ├── rules_of_engagement_and_testing_authorization_template.md # Legal Testing Authorization & CFAA Protection
+├── business-plan/                                      # Modular 3-Year Strategic Business Plan
+│   ├── README.md                                       # Business Plan Table of Contents & Overview
+│   ├── 01_executive_summary.md                         # Executive Summary, Bios & WGU Advantage
+│   ├── 02_vision_mission_goals.md                      # Vision, Mission & 3-Year MRR Growth Milestones
+│   ├── 03_governance_and_wgu_operations.md             # Co-Founder Roles, WGU Flexibility & 5 Contract Clauses
+│   ├── 04_services_and_pricing_architecture.md         # Value-Banded Tiers ($2.5k–$9.5k) & 100% Roll-In Credit
+│   ├── 05_houston_market_assessment.md                 # 5,893 Target Accounts across 7 Houston Verticals
+│   ├── 06_operations_and_tooling_strategy.md           # Pax8, Huntress 24/7 MDR, CIPP.app & Referral Triad
+│   ├── 07_financial_projections_and_pnl.md             # 3-Year Pro-Forma P&L ($130k -> $322.5k -> $555k)
+│   └── audit/                                          # Peer Founder Audit ($5M ARR Managing Partner)
+│       ├── README.md                                   # Audit Executive Memo, Scorecard & Chapter Index
+│       ├── 01_legal_and_scope_gap_analysis.md          # 24/7 SOC Contradiction & Scope Box Rules
+│       ├── 02_pricing_and_roll_in_credit.md            # Value Tiers & 100% Retainer Credit Script
+│       ├── 03_golden_referral_triad.md                 # Insurance Brokers, MSPs & Bank Loan Officers
+│       ├── 04_wgu_student_founder_advantage.md         # Why WGU is an Unfair Advantage for Co-Founders
+│       ├── 05_multi_tenant_tooling_stack.md            # Pax8, Huntress (~$5/user), CIPP.app & Lighthouse
+│       ├── 06_contractual_liability_shields.md         # The 5 Mandatory Contract Protective Clauses
+│       └── 07_90_day_tactical_roadmap.md               # 90-Day Tactical Roadmap & Scorecard
+├── sales-and-gtm/                                      # Modular Houston Sales & Outreach Playbook
+│   ├── README.md                                       # Sales Playbook Table of Contents & Protocol
+│   ├── 01_target_verticals_and_leads.md                # 7 Houston Verticals & 5,893 Accounts
+│   ├── 02_cold_outreach_scripts.md                     # High-Conversion Email Scripts & Signatures
+│   ├── 03_packaging_and_roll_in_credit.md              # 3-Tier Retainer Packaging & Closing Script
+│   └── 04_referral_triad_battlecards.md                # Insurance Broker & MSP Co-Marketing Battlecards
+├── deliverables-and-templates/                         # Client-Facing Execution & Legal Templates
+│   ├── README.md                                       # Template Index & Usage Instructions
+│   ├── rules_of_engagement_and_testing_authorization_template.md # CFAA & Texas Penal Code Authorization
 │   ├── nist_csf_baseline_assessment_template.md        # Package 1 Client Deliverable Template
 │   └── m365_hardening_sprint_checklist.md              # Package 2 Flagship M365 Hardening Checklist
-└── infrastructure/
-    └── domain_and_dns_hardening_guide.md               # morrisoncyber.org DNS, SPF, DKIM, DMARC & M365 Setup
+├── infrastructure/                                     # Technical Operations & DNS Security
+│   ├── README.md                                       # Infrastructure Index
+│   └── domain_and_dns_hardening_guide.md               # morrisoncyber.org DNS, SPF, DKIM, DMARC & M365
+└── market-intelligence/
+    ├── leads/                                          # 5,893 Pre-Sliced Houston CSV Accounts
+    └── scraper/                                        # 96,334 Commercial Houston Database & Search CLI
 ```
 
 ---
@@ -137,5 +147,5 @@ cd /home/keenan/Projects/MorrisonCyberDefense/market-intelligence/scraper
 2. [ ] **Insurance:** Bind $1M / $2M Technology Errors & Omissions (E&O) and Cyber Liability policy.
 3. [ ] **Banking:** Open commercial checking account with Houston-area regional bank.
 4. [ ] **Select Beachhead:** Target **Commercial Contractors** (`2,705` leads) or **Medical Clinics** (`882` leads).
-5. [ ] **Outreach:** Deploy the Cold Email / Coffee Drop scripts in the [Sales Playbook](file:///home/keenan/Projects/MorrisonCyberDefense/sales-and-gtm/houston_mssp_sales_playbook.md).
+5. [ ] **Outreach:** Deploy the Cold Email / Referral scripts in the [Sales Playbook](file:///home/keenan/Projects/MorrisonCyberDefense/sales-and-gtm/README.md).
 6. [ ] **Execution:** Use the [Rules of Engagement](file:///home/keenan/Projects/MorrisonCyberDefense/deliverables-and-templates/rules_of_engagement_and_testing_authorization_template.md) and [NIST Baseline Template](file:///home/keenan/Projects/MorrisonCyberDefense/deliverables-and-templates/nist_csf_baseline_assessment_template.md) for initial client engagements.
