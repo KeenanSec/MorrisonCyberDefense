@@ -61,20 +61,22 @@ MorrisonCyberDefense/
 
 ## 💼 Core Service Portfolio & Pricing
 
-We deliberately lead with high-confidence, non-disruptive, repeatable service packages where our combined credentials shine:
+We deliberately lead with high-confidence, non-disruptive, repeatable service packages with a built-in conversion bridge:
 
 ```mermaid
 flowchart LR
-    P1["1. Baseline Assessment\n($1,500 – $4,000 fixed)\n• NIST CSF 2.0 Quick-Start\n• Threat Surface & MFA Audit\n• Risk-Ranked Roadmap"] --> P2["2. M365 Hardening Sprint\n($3,000 – $8,000 fixed)\n• Entra ID / Conditional Access\n• Intune & Defender Baselines\n• SPF/DKIM/DMARC Lock-Down"]
-    P2 --> P3["3. Monthly Stewardship\n($1,500 – $4,000 / mo)\n• Fractional Security Officer\n• Vulnerability Retesting\n• Insurance Renewal Defense"]
+    P1["1. Diagnostic Audit\n($2,500 – $6,500 fixed)\n• 100% Diagnostic Scope Box\n• NIST CSF 2.0 & Underwriter Attest\n• 10-Day Turnaround"] --> Bridge["THE CONVERSION BRIDGE:\n100% Audit Roll-In Credit\n(80%+ Retainer Close Rate)"]
+    Bridge --> P2["2. M365 Defense Sprint\n($3,800 – $9,500 fixed)\n• Entra ID / Conditional Access\n• Intune & Defender Baselines\n• DMARC (p=reject)"]
+    Bridge --> P3["3. Monthly Stewardship\n($1,750 – $4,250 / mo)\n• Multi-Tenant CIPP Automation\n• Pax8 + Huntress 24/7 MDR\n• Insurance Renewal Defense"]
 ```
 
-### 🚫 Explicit Scope Boundaries (What We Do NOT Sell Yet)
-To protect firm liability and maintain client trust:
-* ❌ **No 24/7 Managed SOC / MDR Claims** (avoids liability for missed 3:00 AM alerts; we configure native Defender alerting).
-* ❌ **No Independent Penetration Testing by Keenan** (hands-on labs do not replace supervised production testing).
-* ❌ **No Guaranteed Compliance Certifications** (we deliver readiness and remediation, not formal CPA/C3PAO audit stamps).
-* ❌ **No Absolute Statements** (we never claim "we will make you 100% unhackable").
+### 🛡️ Operational Guardrails & MDR Architecture
+To protect firm liability and ensure sustainable operations:
+* 🛡️ **24/7 Threat Isolation Backstop:** Layered 24/7 MDR provided by sublicensing **Huntress Labs Managed EDR + ITDR via Pax8** (human SOC isolates threats at 3:00 AM; zero founder midnight burnout).
+* ❌ **No In-House Nocturnal SOC Claims:** We do not operate midnight shifts internally.
+* ❌ **No Independent Penetration Testing by Keenan:** Academic labs do not replace supervised production testing.
+* ❌ **No Guaranteed Compliance Certifications:** We deliver technical readiness and remediation, not formal CPA/C3PAO audit stamps.
+* ❌ **No Absolute Statements:** We never claim "we will make you 100% unhackable."
 
 ---
 

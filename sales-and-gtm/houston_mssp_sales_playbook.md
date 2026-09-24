@@ -71,31 +71,59 @@ pie title Houston MSSP Qualified Lead Breakdown (5,893 Total)
 
 ---
 
-## 4. The 3-Tier Packaging & Pricing Model
+## 4. The Packaging, Pricing & Retainer Architecture
 
 ```
-                    +------------------------------------+
-                    |       MSSP Pricing Architecture    |
-                    +-----------------+------------------+
-                                      |
-         +----------------------------+----------------------------+
-         |                                                         |
-         v                                                         v
-+-----------------------------+                           +-----------------------------+
-|     Essential Defense       |                           |     Compliance & Co-SOC     |
-|   $125 / user / month       |                           |    $195 / user / month      |
-| • 24/7 Managed EDR (MDR)    |                           | • Full Essential Tier +     |
-| • Next-Gen DNS & Web Filter |                           | • HIPAA / FTC / CMMC Audit  |
-| • Cloud Email Security      |                           | • 24/7 SOC Log Ingestion    |
-| • Managed Backup Monitoring |                           | • Annual Vulnerability Scan |
-| • Minimum $1,500 / month    |                           | • Minimum $3,000 / month    |
-+-----------------------------+                           +-----------------------------+
+========================================================================================
+             MORRISON CYBER DEFENSE: SERVICE PACKAGES & CONVERSION BRIDGE
+========================================================================================
+[ PACKAGE 1: THE DIAGNOSTIC WEDGE ]
+Small-Business Cybersecurity Posture & Risk Audit
+• 100% Diagnostic Scope Box (Zero unpaid troubleshooting during audit)
+• Fixed Tier Pricing:
+    - Tier 1 (1–25 Users / 1 Tenant):     $2,500 Flat
+    - Tier 2 (26–75 Users / 1 Tenant):    $4,500 Flat
+    - Tier 3 (76–150 Users / Multi-Site): $6,500 Flat
+• Deliverables: 1-Page Executive Risk Matrix, Remediation Backlog, Insurance Attestation
+• TIMELINE: 10 Business Days
+        |
+        +---> [ THE CONVERSION BRIDGE: 100% FEE ROLL-IN CREDIT ]
+              "Sign our 12-month Security Stewardship Retainer within 14 calendar days,
+               and 100% of your $2,500–$4,500 audit fee is credited directly toward your
+               onboarding and first month's retainer. Your audit is effectively FREE."
+        |
+[ PACKAGE 2: THE FLAGSHIP REMEDIATION ]
+Microsoft 365 Cloud Defense Sprint
+• Active Zero-Trust Hardening & Secure Score Lift
+• Fixed Tier Pricing:
+    - Tier 1 (1–25 Users):   $3,800 Flat
+    - Tier 2 (26–75 Users):  $6,500 Flat
+    - Tier 3 (76–150 Users): $9,500 Flat
+• Entra ID CA, Intune Baselines, Defender EDR, SPF/DKIM/DMARC (p=reject)
+• TIMELINE: 2-Week Intensive (Tested 48 hrs in Report-Only)
+        |
+[ PACKAGE 3: THE RECURRING RETAINER ]
+Monthly Security Stewardship & vCISO
+• Predictable High-Margin Monthly Recurring Revenue (MRR)
+• Monthly Retainer (12-Month Agreement):
+    - Core Defense (Up to 35 Users):  $1,750 / month
+    - Advanced Defense (36–75 Users): $2,750 / month
+    - Enterprise Mid-Market (76+):    $4,250 / month
+• Continuous CIPP tenant drift monitoring, Huntress 24/7 MDR threat isolation via Pax8,
+  quarterly executive risk reviews, 3 vendor questionnaire reviews/mo, insurance defense.
+========================================================================================
 ```
 
 ---
 
-## 5. Next Steps for You & Your Dad
+## 5. Next Steps for Keenan & Dad: The 90-Day Execution Roadshow
 
-1. **Pick One Beachhead Vertical:** Start with **Commercial Contractors** (`2,705` leads) or **Medical Clinics** (`882` leads).
-2. **Execute In-Person Office Drops:** Use the 7:30 AM coffee protocol from the SaaS Roadmap to visit commercial contractors in Northwest Houston (`77041`) or Willowbrook (`77070`).
-3. **Offer the Free "Cyber Insurance Readiness Audit":** Never try to sell security on Call 1. Offer to review their insurance questionnaire for free. When you find 3 missing controls, they hire you to implement and monitor them.
+1. **Activate "The Golden Referral Triad" (Primary Pipeline):**
+   - **Commercial Cyber Insurance Brokers (USI, Higginbotham, McGriff):** Pitch the *"14-Day Cyber Insurance Triage Sprint"* to save insureds facing policy non-renewal.
+   - **Local IT MSPs (1-5 tech shops):** Deliver the bilateral Non-Compete Co-Managed Security Covenant.
+   - **Regional Bank Commercial Loan Officers (Amegy, Frost):** Sponsor complimentary wire transfer fraud reviews for construction borrowers.
+2. **Execute Targeted Lead Campaigns (Secondary Pipeline):**
+   - Query target ZIP codes in Northwest Houston (`77041` / `77070`) using the local scraper CLI:
+     `cd market-intelligence/scraper && ./run.sh search "contractor" --zip 77041`
+3. **Lead with the Diagnostic "Scope Box":**
+   - Never sell abstract security. Offer the **Cyber Insurance Questionnaire Review**. When gaps are discovered, present the $2,500 Diagnostic Audit with the **100% Assessment-to-Retainer Roll-In Credit** to secure 12-month stewardship agreements.
