@@ -28,7 +28,7 @@ Morrison Cyber Defense LLC was engaged by `[Client Business Name]` to conduct a 
 ```
 
 ### Executive Verdict & Business Risk
-If an attack occurred today, the organization faces an estimated recovery window of `[X to Y days]` and direct financial exposure from business email wire fraud, extortion demands, and operational halt. Implementing the 30-day prioritized roadmap below remediates **85% of total exploit vectors** with zero hardware reinvestment.
+If an attack occurred today, the organization faces an estimated recovery window of `[X to Y days]` and direct financial exposure from business email wire fraud, extortion demands, and operational halt. Implementing the 30-day prioritized roadmap below directly remediates the critical attack vectors identified during our baseline audit—specifically closing identity gaps, securing domain email authentication, and deploying endpoint behavioral protection with zero unnecessary hardware reinvestment.
 
 ---
 
@@ -49,7 +49,7 @@ If an attack occurred today, the organization faces an estimated recovery window
 
 ### Finding MCD-01: Inadequate Multi-Factor Authentication & Conditional Access
 * **Severity:** `CRITICAL (CVSS 9.2 Equivalent)`
-* **Evidence Collected By:** Keenan Morrison (Associate Analyst) via Microsoft Graph & Entra Admin Center
+* **Evidence Collected By:** Keenan Morrison (Co-Founder & Lead Technical Systems Auditor) via Microsoft Graph & Entra Admin Center
 * **Architectural Review:** Senior Partner (Principal Architect)
 * **Description:** Out of `[XX]` active user accounts, `[YY]` accounts do not enforce MFA. Furthermore, legacy authentication protocols (POP3/IMAP/SMTP Auth) remain enabled, allowing attackers to bypass MFA using credential stuffing.
 * **Direct Business Risk:** Business Email Compromise (BEC), payroll redirection, fraudulent supplier wire transfers.
@@ -98,13 +98,14 @@ flowchart TD
 
 ## 5. Delivery Verification & Sign-Off
 
-This report has undergone two-tier review in accordance with Morrison Cyber Defense operational standards. Data discovery and baseline technical testing were performed by the Associate Analyst; all risk ratings, architectural findings, and strategic recommendations were audited and approved by the Principal Cybersecurity Architect.
+This report has undergone two-tier operational review in accordance with Morrison Cyber Defense quality standards. Discovery data collection and technical baseline tests were executed by the Lead Technical Systems Auditor; all risk ratings, architectural findings, and strategic recommendations were audited and approved by the Principal Cybersecurity Architect.
 
-**Technical Analyst:**  
-Keenan Morrison, Associate Cybersecurity Analyst  
-Certifications: CompTIA A+, Network+, Security+  
+**Lead Technical Systems Auditor:**  
+Keenan Morrison, Co-Founder & Lead Technical Systems Auditor  
+Certifications: CompTIA Security+, Network+, A+  
+Signature: `______________________________________` Date: `____________`
 
 **Architectural Sign-Off:**  
-Senior Partner, Principal Cybersecurity Architect  
+Senior Partner, Co-Founder & Principal Cybersecurity Architect  
 Morrison Cyber Defense LLC  
 Signature: `______________________________________` Date: `____________`

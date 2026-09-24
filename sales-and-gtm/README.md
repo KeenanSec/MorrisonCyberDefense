@@ -19,6 +19,7 @@ Click any chapter below for targeted scripts, lead breakdowns, and conversion fr
 | **02** | [**High-Conversion Outreach Scripts**](02_cold_outreach_scripts.md) | Cold email pitches and signatures for Contractors, Clinics, and CPAs. |
 | **03** | [**Packaging, Pricing & The Roll-In Credit**](03_packaging_and_roll_in_credit.md) | Pricing tiers ($2.5k–$9.5k) and the 100% Roll-In Credit closing script. |
 | **04** | [**Referral Triad Partner Battlecards**](04_referral_triad_battlecards.md) | Co-marketing playbooks for Insurance Brokers, Local MSPs, and Banks. |
+| **05** | [**Cyber Insurance Broker Referral Kit**](05_broker_referral_collateral.md) | Complete 1-page flyer, Houston broker directory, and outreach sequence. |
 
 ---
 
